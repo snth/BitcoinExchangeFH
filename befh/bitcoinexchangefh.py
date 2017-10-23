@@ -4,21 +4,21 @@ import argparse
 import sys
 
 from befh.exchange import ExchangeGateway
-from befh.exch_bitmex import ExchGwBitmex
-from befh.exch_btcc import ExchGwBtccSpot, ExchGwBtccFuture
-from befh.exch_bitfinex import ExchGwBitfinex
-from befh.exch_okcoin import ExchGwOkCoin
-from befh.exch_kraken import ExchGwKraken
-from befh.exch_gdax import ExchGwGdax
-from befh.exch_bitstamp import ExchGwBitstamp
-from befh.exch_gatecoin import ExchGwGatecoin
-from befh.exch_quoine import ExchGwQuoine
-from befh.exch_poloniex import ExchGwPoloniex
-from befh.exch_bittrex import ExchGwBittrex
-from befh.exch_yunbi import ExchGwYunbi
-from befh.exch_liqui import ExchGwLiqui
-from befh.exch_binance import ExchGwBinance
-from befh.exch_cryptopia import ExchGwCryptopia
+from befh.exch.bitmex import ExchGwBitmex
+from befh.exch.btcc import ExchGwBtccSpot, ExchGwBtccFuture
+from befh.exch.bitfinex import ExchGwBitfinex
+from befh.exch.okcoin import ExchGwOkCoin
+from befh.exch.kraken import ExchGwKraken
+from befh.exch.gdax import ExchGwGdax
+from befh.exch.bitstamp import ExchGwBitstamp
+from befh.exch.gatecoin import ExchGwGatecoin
+from befh.exch.quoine import ExchGwQuoine
+from befh.exch.poloniex import ExchGwPoloniex
+from befh.exch.bittrex import ExchGwBittrex
+from befh.exch.yunbi import ExchGwYunbi
+from befh.exch.liqui import ExchGwLiqui
+from befh.exch.binance import ExchGwBinance
+from befh.exch.cryptopia import ExchGwCryptopia
 from befh.kdbplus_client import KdbPlusClient
 from befh.mysql_client import MysqlClient
 from befh.sqlite_client import SqliteClient
