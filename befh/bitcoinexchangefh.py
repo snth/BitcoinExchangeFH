@@ -19,11 +19,11 @@ from befh.exch.yunbi import ExchGwYunbi
 from befh.exch.liqui import ExchGwLiqui
 from befh.exch.binance import ExchGwBinance
 from befh.exch.cryptopia import ExchGwCryptopia
-from befh.kdbplus_client import KdbPlusClient
-from befh.mysql_client import MysqlClient
-from befh.sqlite_client import SqliteClient
-from befh.file_client import FileClient
-from befh.zmq_client import ZmqClient
+from befh.clients.kdbplus import KdbPlusClient
+from befh.clients.mysql import MysqlClient
+from befh.clients.sqlite import SqliteClient
+from befh.clients.file import FileClient
+from befh.clients.zmq import ZmqClient
 from befh.subscription_manager import SubscriptionManager
 from befh.util import Logger
 

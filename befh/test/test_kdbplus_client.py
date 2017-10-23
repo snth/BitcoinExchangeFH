@@ -2,7 +2,7 @@
 
 import unittest
 from util import Logger
-from kdbplus_client import KdbPlusClient
+from clients.kdbplus import KdbPlusClient
 
 class SqliteClientTest(unittest.TestCase):
     @classmethod

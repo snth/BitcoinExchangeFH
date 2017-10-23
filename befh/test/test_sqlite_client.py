@@ -2,7 +2,7 @@
 
 import unittest
 import os
-from sqlite_client import SqliteClient
+from clients.sqlite import SqliteClient
 
 file_name = 'sqliteclienttest.sqlite'
 

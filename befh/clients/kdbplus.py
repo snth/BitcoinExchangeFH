@@ -1,4 +1,4 @@
-from befh.database_client import DatabaseClient
+from befh.clients.database import DatabaseClient
 from befh.util import Logger
 import threading
 import re

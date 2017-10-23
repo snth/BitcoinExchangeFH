@@ -3,7 +3,7 @@ from befh.exchange import ExchangeGateway
 from befh.market_data import L2Depth, Trade
 from befh.util import Logger
 from befh.instrument import Instrument
-from befh.sql_client_template import SqlClientTemplate
+from befh.clients.template import SqlClientTemplate
 from functools import partial
 from datetime import datetime
 from multiprocessing import Process

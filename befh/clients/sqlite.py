@@ -1,6 +1,6 @@
 #!/bin/python
 
-from befh.sql_client import SqlClient
+from befh.clients.sql import SqlClient
 import sqlite3
 
 class SqliteClient(SqlClient):

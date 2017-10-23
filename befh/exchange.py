@@ -1,6 +1,6 @@
 #!/bin/python
-from befh.zmq_client import ZmqClient
-from befh.file_client import FileClient
+from befh.clients.zmq import ZmqClient
+from befh.clients.file import FileClient
 from befh.market_data import L2Depth, Trade, Snapshot
 from datetime import datetime
 from threading import Lock

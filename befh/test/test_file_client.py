@@ -2,7 +2,7 @@
 
 import unittest
 import os
-from file_client import FileClient
+from clients.file import FileClient
 from util import Logger
 
 path = 'test\\'
