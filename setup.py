@@ -10,7 +10,10 @@ setup(
     license='LICENSE.txt',
     description='Cryptocurrency exchange market data feed handler.',
     entry_points={
-            'console_scripts': ['bitcoinexchangefh=befh.bitcoinexchangefh:main']
+            'console_scripts': [
+                'bitcoinexchangefh=befh.bitcoinexchangefh:main',
+                'befh=befh.bitcoinexchangefh:main',
+                ]
         },
     install_requires=[
             'pymysql',
